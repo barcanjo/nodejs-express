@@ -1,0 +1,3 @@
+executar a patir da pasta utils, com o arquivo imagem.png presente:
+
+url -X POST http://localhost:3000/upload/imagem -v -H "filename: imagem.png" -H "Content-Type: application/octet-stream" --data-binary @imagem.png
